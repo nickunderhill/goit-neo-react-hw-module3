@@ -31,7 +31,12 @@ const ContactForm = ({ onAddContact }) => {
         <label className={css.contactFormLabel} htmlFor="name">
           Name
         </label>
-        <Field className={css.contactFormInput} type="text" name="name" />
+        <Field
+          className={css.contactFormInput}
+          type="text"
+          name="name"
+          id="name"
+        />
         <ErrorMessage
           name="name"
           component="span"
@@ -41,7 +46,12 @@ const ContactForm = ({ onAddContact }) => {
         <label className={css.contactFormLabel} htmlFor="number">
           Number
         </label>
-        <Field className={css.contactFormInput} type="text" name="number" />
+        <Field
+          className={css.contactFormInput}
+          type="text"
+          name="number"
+          id="number"
+        />
         <ErrorMessage
           name="number"
           component="span"
